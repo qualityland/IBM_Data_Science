@@ -1,0 +1,9 @@
+DDL (Data Definition Language):
+- define, change or drop objects (tables)
+- CREATE, ALTER, TRUNCATE, DROP
+
+
+DML (Data Manipulation Language):
+- read and modify data
+- CRUD (create, read, update, delete)
+- INSERT, SELECT, UPDATE, DELETE
