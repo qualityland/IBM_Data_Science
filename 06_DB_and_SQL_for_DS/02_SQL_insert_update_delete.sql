@@ -13,4 +13,4 @@ update author set lastname = 'Katta', firstname = 'Laksmi'
   where author_id = 2;
 
 delete from author
-where author_id in (2, 3);
+  where author_id in (2, 3);
