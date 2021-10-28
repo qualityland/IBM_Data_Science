@@ -25,3 +25,11 @@ from petrescue;
 
 select ucase(animal), lcase(animal)
 from petrescue;
+
+-- date & time functions
+select day(rescuedate)
+from petrescue;
+
+-- time since rescue in YMMDD
+select (current_date - rescuedate)
+from petrescue;
