@@ -11,5 +11,6 @@ x = np.random.randn(10000)
 ax = fig.add_subplot(111)
 ax.hist(x, 100)
 
+# add title and save the figure
 ax.set_title('Normal distribution with $\mu=0, \sigma=1$')
 fig.savefig('matplotlib_histogram.png')
